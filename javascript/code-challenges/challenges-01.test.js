@@ -9,13 +9,13 @@ Use `forEach` to loop over the input array and work with each value.  Push the n
 ------------------------------------------------------------------------------------------------ */
 
 const addOne = (arr) => {
+  // Solution code here...
   let newArray = [];
   arr.forEach(num => {
     let sum = num + 1;
     newArray.push(sum);
   });
   return newArray;
-  // Solution code here...
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -28,6 +28,12 @@ Use `forEach` to loop over the input array. Modify each string, and add the upda
 
 const addExclamation = (arr) => {
   // Solution code here...
+  let newArray = [];
+  arr.forEach(str => {
+    let exclaim = str + '!';
+    newArray.push(exclaim);
+  });
+  return newArray;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -40,6 +46,12 @@ Use `forEach` to loop over the input array. The modified strings should each be 
 
 const allUpperCase = (arr) => {
   // Solution code here...
+  let newArray = [];
+  arr.forEach(str => {
+    let uppercase = str.toUpperCase();
+    newArray.push(uppercase);
+  });
+  return newArray;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -54,11 +66,23 @@ Use `forEach` to build a new array of strings, each string modified by the callb
 
 const greeting = (word) => {
   // Solution code here...
+  let newString = '';
+  word.forEach(str => {
+    let challenge4 = str.toUpperCase() + '!';
+    newString.push(challenge4);
+  });
+  return newString;
 };
 
 const speaker = (words, callback) => {
   // Solution code here...
+  let newArray = [];
+  words.forEach(str => {
+    let speaking = str
+  });
 };
+
+speaker(words, greeting());
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 5
