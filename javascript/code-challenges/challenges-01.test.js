@@ -9,6 +9,12 @@ Use `forEach` to loop over the input array and work with each value.  Push the n
 ------------------------------------------------------------------------------------------------ */
 
 const addOne = (arr) => {
+  let newArray = [];
+  arr.forEach(num => {
+    let sum = num + 1;
+    newArray.push(sum);
+  });
+  return newArray;
   // Solution code here...
 };
 
