@@ -21,3 +21,6 @@ To run your tests
 ### 401 Data Structures, Code Challenges
 
 - Please follow the instructions specific to your 401 language, which can be found in the directory below, matching your course.
+
+### Code challenge 03 07/19/2021
+- Ended up collaborating with Yrim, Alex, and Charlie doing the code challenges.
