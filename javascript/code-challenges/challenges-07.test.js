@@ -25,15 +25,20 @@ let starWarsPeople = [
 
 const sortStarWarsCharacters = (starWarsArr) => {
   // Solution code here...
-}
+  return starWarsArr.sort((a, b) => {
+    return b.height - a.height;
+  });
+};
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 2
-Write a function named removeThree that takes an index and an array. The function should removes three items in the array starting with the value at the index. 
+Write a function named removeThree that takes an index and an array. The function should removes three items in the array starting with the value at the index.
 ------------------------------------------------------------------------------------------------ */
 
 const removeThree = (idx, arr) => {
   // Solution code here...
+  arr.splice(idx, 3);
+  return arr;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -41,9 +46,9 @@ CHALLENGE 3
 Write a function named joinArray that takes an array and joins all of the elements together in one string on a space.
 ------------------------------------------------------------------------------------------------ */
 
-const joinArray = (arr) => {
-  // Solution code here...
-};
+const joinArray = (arr) => arr.join(' ');
+// Solution code here...
+
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 4
@@ -60,8 +65,7 @@ const howMuchPencil = (str) => {
   for (let i = 0; i < str.length; i++) {
     result.push(str.slice(i));
   }
-
-
+  result.push('');
   return result;
 };
 
@@ -71,9 +75,8 @@ Write a function name wordsToCharList that, given a string as input, returns a n
 For example, wordsToCharList('gregor') returns ['g','r','e','g','o','r'].
 ------------------------------------------------------------------------------------------------ */
 
-const wordsToCharList = (arr) => {
-  // Solution code here...
-};
+const wordsToCharList = (arr) => arr.split('');
+// Solution code here...
 
 
 /* ------------------------------------------------------------------------------------------------
@@ -118,8 +121,8 @@ const listFoods = (recipe) => {
   // Solution code here...
   recipe.ingredients.forEach(ingredient => {
     //Slice off the number
-    let withoutNum = ingredient.slice(ingredient.index(' ') + 1);
-    let noMeasurement = withoutNum.slice(withoutNum.indexOf(' ' + 1));
+    let withoutNum = ingredient.slice(ingredient.indexOf(' ') + 1);
+    let noMeasurement = withoutNum.slice(withoutNum.indexOf(' ') + 1);
     result.push(noMeasurement);
 
   });
