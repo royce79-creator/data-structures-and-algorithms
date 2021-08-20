@@ -148,7 +148,8 @@ Write a function named findShortest that, given the Star Wars data from Challeng
 
 let findShortest = (data) => {
   // Solution code here...
-  
+  return data.reduce((shortestAtThisPoint, additionalChar) => Number(shortestAtThisPoint.height) < Number(additionalChar.height) ? shortestAtThisPoint : additionalChar).name;
+
 };
 
 /* ------------------------------------------------------------------------------------------------
