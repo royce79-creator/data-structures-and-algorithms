@@ -79,7 +79,17 @@ const cookieStores = [firstPike, seaTac, seattleCenter, capHill, alkiBeach];
 
 const grandTotal = (stores) => {
   // Solution code here...
-
+  let newArr = [];
+  stores.map(store =>
+    store.map((cookiesSold, index) => {
+      if (!newArr[index]) {
+        newArr.push(cookiesSold);
+      } else {
+        newArr[index] += cookiesSold;
+      }
+    })
+  );
+  return newArr;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -89,8 +99,13 @@ Here is sample data for the 9:00 sales: { sales: '88 cookies', time: '9 a.m.' }.
 Write a function named salesData that uses forEach to iterate over the hourlySales array and create an object for each hour. Return an array of the formatted data.
 ------------------------------------------------------------------------------------------------ */
 
-const salesData = (hours, data) => {
+const salesData = (hour, data) => {
   // Solution code here...
+  let total = [];
+  data.forEach((data, index) => {
+    total.push({sales: `${data} cookies`, time: hour[index]});
+  });
+  return total;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -113,9 +128,9 @@ const errands = [
   }
 ];
 
-const howManyTreats = (arr) => {
-  // Solution code here...
-};
+const howManyTreats = (arr) => arr[2].items[1].quantity;
+// Solution code here...
+
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 7 - Stretch Goal
