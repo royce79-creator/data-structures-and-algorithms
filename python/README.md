@@ -74,3 +74,12 @@ From the root of the `data-structures-and-algorithms/python` folder, execute the
 - **Run every possible test** - `pytest`
 - **Run filtered tests** - `pytest -k some_filter_text`
 - **Run in watch mode** - `ptw` or `pytest-watch`
+
+# Reverse an Array
+The challenge that will be done today will have a whitebaord which will include a fucntion that takes in a lsit, prduce an output of the smae list but in reverse.
+
+## Whiteboard Process
+[White board challenge 1](img/white_board_01.png)
+
+## Approach & Efficiency
+We took the approach in way that was going to show a new array an place the values of the index's and insert the values in decneding order of the reverse of the list. Deciding on repalcing the index's to show the correct reverse order.
