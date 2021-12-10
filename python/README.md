@@ -75,6 +75,7 @@ From the root of the `data-structures-and-algorithms/python` folder, execute the
 - **Run filtered tests** - `pytest -k some_filter_text`
 - **Run in watch mode** - `ptw` or `pytest-watch`
 
+# Code Challenge 01
 # Reverse an Array
 The challenge that will be done today will have a whitebaord which will include a fucntion that takes in a lsit, prduce an output of the smae list but in reverse.
 
@@ -83,3 +84,13 @@ The challenge that will be done today will have a whitebaord which will include 
 
 ## Approach & Efficiency
 We took the approach in way that was going to show a new array an place the values of the index's and insert the values in decneding order of the reverse of the list. Deciding on repalcing the index's to show the correct reverse order.
+
+# Code Challenge 02
+# Insert to Middle of an Array
+This challenge was all about attempting to find a way that would allow for a number to be placed into thr middle of a list.
+
+## Whiteboard Process
+[White board challenge 2](img/white_board_02.png)
+
+## Approach & Efficiency
+With getting this code to work, Ian and I ended up making an for loop that would add the list of numbers into another one. With a sperate number that is inputted will then be placed into the muddle of the list. Ended up using the append method in order to add the second half of the list after the value is placed in the list. Once that shows it would then show the value in the middle of the list.
