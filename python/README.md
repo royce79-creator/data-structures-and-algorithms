@@ -94,3 +94,13 @@ This challenge was all about attempting to find a way that would allow for a num
 
 ## Approach & Efficiency
 With getting this code to work, Ian and I ended up making an for loop that would add the list of numbers into another one. With a sperate number that is inputted will then be placed into the muddle of the list. Ended up using the append method in order to add the second half of the list after the value is placed in the list. Once that shows it would then show the value in the middle of the list.
+
+# Code Challenge 03
+# Binary Search of Sorted Array
+The chalnege that we are adressing in this code chalenge is finding a given value and using a binary search to find if the value is within the list. Afterwards returning the ouptu of what index the number is residing.
+
+## Whiteboard Process
+[White Board 03](img/white_board_03.png)
+
+## Approach & Efficiency
+During this code challenge, We wanted to iterate through the lsit to then allow us to find the value of the index for "value". When we did this we would make sure that the value was in the list and if it was not we would return -1. We tried to go through the median of the list and go from there in terms of cycling throuhg the values until the index matched the corresponding value that was inputted. 
