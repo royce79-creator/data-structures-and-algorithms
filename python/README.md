@@ -103,4 +103,19 @@ The chalnege that we are adressing in this code chalenge is finding a given valu
 [White Board 03](img/white_board_03.png)
 
 ## Approach & Efficiency
-During this code challenge, We wanted to iterate through the lsit to then allow us to find the value of the index for "value". When we did this we would make sure that the value was in the list and if it was not we would return -1. We tried to go through the median of the list and go from there in terms of cycling throuhg the values until the index matched the corresponding value that was inputted. 
+During this code challenge, We wanted to iterate through the lsit to then allow us to find the value of the index for "value". When we did this we would make sure that the value was in the list and if it was not we would return -1. We tried to go through the median of the list and go from there in terms of cycling throuhg the values until the index matched the corresponding value that was inputted.
+
+# Singly Linked List
+This code challenge was all about making sure to test out linked lists to ensure that they would be able to be tested to pu values into a liked list as well ass return boolean values. 
+
+## Challenge
+The challenge required that there be a way to test out the linked lists in a way that could allow for testing implementation. Using the methods include, to_string, and insert. These all residing in a class then to be called to test things within the testing evironment.
+
+## Approach & Efficiency
+In this approahc I was able to partner with other classmates to figure out that we would need to iterarte through the list to find whether the values in the linked list were ther or not. USually what I start with is writing out the tests in order to see if the values will show up or not. 
+
+## API
+I ended up getting help with wirting code from my peers like Brandon, Alex, and Eddie. There was alos websites I sued to figure out how to utilize and understand the topics.
+
+1. [linked list inserting](https://www.geeksforgeeks.org/linked-list-set-2-inserting-a-node/)
+2. [All about linked lists](https://www.geeksforgeeks.org/data-structures/linked-list/)
