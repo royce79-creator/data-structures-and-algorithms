@@ -19,14 +19,14 @@ class LinkedList:
         while current:
             if current.value == value:
                 return True
-            current == current.next
+            current = current.next
         return False
 
     def to_string(self):
         current = self.head
         str_result = ''
         while current:
-            str_result += f"{{ {current.value} }} -> "
+            str_result += f"{ {current.value} } -> "
             current = current.next
-            return str_result + 'None'
+        return str_result + 'None'
 # Had help from Alex & Brandon.

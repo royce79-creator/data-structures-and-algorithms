@@ -55,10 +55,10 @@ def test_includes_not_in_linked_list():
 
 def test_to_string_linked_list():
     ll = LinkedList()
-    ll.insert('goku')
-    ll.insert('freiza')
     ll.insert('gohan')
-    assert ll.to_string() == "{ goku } -> { freiza } -> { gohan } -> None"
+    ll.insert('freiza')
+    ll.insert('goku')
+    assert ll.to_string() == "{'goku'} -> {'freiza'} -> {'gohan'} -> None"
 
 def test_to_string_not_working():
     ll = LinkedList()
