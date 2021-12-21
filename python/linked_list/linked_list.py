@@ -30,3 +30,21 @@ class LinkedList:
             current = current.next
         return str_result + 'None'
 # Had help from Alex & Brandon.
+
+    def append(self, value):
+        current = self.head
+        node1 = Node(value)
+        while current:
+            if current.next == None:
+                current.next = node1
+                break 
+        current = current.next
+
+    def insert_before(self):
+        pass
+
+        
+
+    def insert_after():
+        pass
+

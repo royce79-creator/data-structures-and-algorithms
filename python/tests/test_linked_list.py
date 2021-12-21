@@ -66,3 +66,9 @@ def test_to_string_not_working():
     ll.insert('freiza')
     ll.insert('gohan')
     assert ll.to_string() != "{ goku } -> { freiza } -> { gohan } -> None"
+
+def test_append_one():
+    ll = LinkedList()
+    ll.node1 = 'vegeta'
+    ll.node2 = 'goku'
+    ll.append('krillin')
