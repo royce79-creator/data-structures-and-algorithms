@@ -122,3 +122,32 @@ I ended up getting help with wirting code from my peers like Brandon, Alex, and 
 
 # Code Challenge 08
 # Zip
+
+# Code Challenge 10
+
+# Stacks and Queues
+In this hcalenge we would utilize stack and queue methodology to simulate using peek, pop, etc. This challenge demonstrates a clear understanding of what queues and stacks can do using python.
+
+## Challenge
+In the challenge we were given a lsit of questions to answer for this and made tests that would allow us to meet those requirements. In the challenge we fulfill the 14 quetions that were given: 
+
+1. Can successfully push onto a stack
+2. Can successfully push multiple values onto a stack
+3. Can successfully pop off the stack
+4. Can successfully empty a stack after multiple pops
+5. Can successfully peek the next item on the stack
+6. Can successfully instantiate an empty stack
+7. Calling pop or peek on empty stack raises exception
+8. Can successfully enqueue into a queue
+9. Can successfully enqueue multiple values into a queue
+10. Can successfully dequeue out of a queue the expected value
+11. Can successfully peek into a queue, seeing the expected value
+12. Can successfully empty a queue after multiple dequeues
+13. Can successfully instantiate an empty queue
+14. Calling dequeue or peek on empty queue raises exception
+
+## Approach & Efficiency
+The approach that I took was making sure there was an estalbished Node that would allow for other class methods to use. When attempting to show that when passing through multiple values there was a use of logic that made sense. I ended up making sure that the logic was clear an concise.
+
+## API
+I ended up working with Eddie, Brandon, Clarissa, Alex and David.
