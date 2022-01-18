@@ -151,3 +151,17 @@ The approach that I took was making sure there was an estalbished Node that woul
 
 ## API
 I ended up working with Eddie, Brandon, Clarissa, Alex and David.
+
+# Code Challenge 11
+
+# Stacks and Queues (Psuedo)
+In this chalenge We had to use a class instance of Psuedo and make methods that would allow a queue like system to dequeue and enqueue values without making it a cause for using the same stack/queue and making a new one.
+
+## Challenge 
+In this challenge we needed to make a class called PsuedoQueue and make methods that would dequeue and enqueue values from a queue. In this I was able to make sure that things were fleshed out by making while loops for the enqueue and dequeue method. This would remove values from a queue as well as add them to a completely new queue.
+
+## Approach & Efficiency
+The way I saw this was making a double negative in the logic by having the enqueue method utilize the boolean is_empty method and it would allow for adding values to a new queue to indicate a new queue and pushing the value to the top of the queue. The dequeue method uses the same while loop logic and instead of pushing the value it returns the stack_out method to pop a value out of a queue.
+
+# API
+In thisw code challenge I did work with Alex, Michael, Eddie and Brandon. The sites I utilized was geek for geeks.
