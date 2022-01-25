@@ -165,3 +165,32 @@ The way I saw this was making a double negative in the logic by having the enque
 
 # API
 In thisw code challenge I did work with Alex, Michael, Eddie and Brandon. The sites I utilized was geek for geeks.
+
+# Code Challenge 13
+
+# White Board:
+[Code Challenge 13, WB](img/code_challenge_13.png)
+
+# Stack Queue Bracket
+<!-- Short summary or background information -->
+Problem Domain: Write a function called validate brackets that will take in a string and return a boolean based on if all the brackets within are balanced
+
+## Challenge
+<!-- Description of the challenge -->
+Create a method that will do the above
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+
+Big O
+Space: O(n)
+Time: O(n)
+
+## API
+<!-- Description of each method publicly available to your Stack and Queue-->
+
+validateBrackets
+
+will take in a string and see if the brackets match each other. Then return a boolean of true if they do and false if they don't.
+
+Credit:
+Brandon, Eddie, Alex.

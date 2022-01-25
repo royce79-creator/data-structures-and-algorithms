@@ -1,3 +1,4 @@
+import pytest
 from code_challenges.stack_queue_animal_shelter.stack_queue_animal_shelter import AnimalShelter
 
 def test_animal_shelter():
@@ -28,6 +29,8 @@ def test_animal_shelter_enqueue_return_none():
     actual = animal_shelter.in_stack.peek()
     expected = 'cat'
     assert actual != expected
+
+@pytest.mark.skip('pending')
 def test_animal_shelter_dequeue():
     animal_shelter = AnimalShelter()
     animal_shelter.enqueue('dog')
