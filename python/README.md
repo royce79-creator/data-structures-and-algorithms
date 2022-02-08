@@ -199,5 +199,4 @@ Brandon, Eddie, Alex.
 [Code Challenge 17 White board](img/02_03_22.code.challenge17.png)
 
 # Breadth-first Traversal
-We ended up making a function that would take in a tree and produce a list that would show the numbers in order fromthe breadth-first traversal.
-
+We ended up making a function that would take in a tree and produce a list that would show the numbers in order fromthe breadth-first traversa
