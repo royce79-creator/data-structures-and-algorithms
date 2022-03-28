@@ -119,3 +119,87 @@ I ended up getting help with wirting code from my peers like Brandon, Alex, and 
 
 1. [linked list inserting](https://www.geeksforgeeks.org/linked-list-set-2-inserting-a-node/)
 2. [All about linked lists](https://www.geeksforgeeks.org/data-structures/linked-list/)
+
+# Code Challenge 08
+# Zip
+
+# Code Challenge 10
+
+# Stacks and Queues
+In this hcalenge we would utilize stack and queue methodology to simulate using peek, pop, etc. This challenge demonstrates a clear understanding of what queues and stacks can do using python.
+
+## Challenge
+In the challenge we were given a lsit of questions to answer for this and made tests that would allow us to meet those requirements. In the challenge we fulfill the 14 quetions that were given: 
+
+1. Can successfully push onto a stack
+2. Can successfully push multiple values onto a stack
+3. Can successfully pop off the stack
+4. Can successfully empty a stack after multiple pops
+5. Can successfully peek the next item on the stack
+6. Can successfully instantiate an empty stack
+7. Calling pop or peek on empty stack raises exception
+8. Can successfully enqueue into a queue
+9. Can successfully enqueue multiple values into a queue
+10. Can successfully dequeue out of a queue the expected value
+11. Can successfully peek into a queue, seeing the expected value
+12. Can successfully empty a queue after multiple dequeues
+13. Can successfully instantiate an empty queue
+14. Calling dequeue or peek on empty queue raises exception
+
+## Approach & Efficiency
+The approach that I took was making sure there was an estalbished Node that would allow for other class methods to use. When attempting to show that when passing through multiple values there was a use of logic that made sense. I ended up making sure that the logic was clear an concise.
+
+## API
+I ended up working with Eddie, Brandon, Clarissa, Alex and David.
+
+# Code Challenge 11
+
+# Stacks and Queues (Psuedo)
+In this chalenge We had to use a class instance of Psuedo and make methods that would allow a queue like system to dequeue and enqueue values without making it a cause for using the same stack/queue and making a new one.
+
+## Challenge 
+In this challenge we needed to make a class called PsuedoQueue and make methods that would dequeue and enqueue values from a queue. In this I was able to make sure that things were fleshed out by making while loops for the enqueue and dequeue method. This would remove values from a queue as well as add them to a completely new queue.
+
+## Approach & Efficiency
+The way I saw this was making a double negative in the logic by having the enqueue method utilize the boolean is_empty method and it would allow for adding values to a new queue to indicate a new queue and pushing the value to the top of the queue. The dequeue method uses the same while loop logic and instead of pushing the value it returns the stack_out method to pop a value out of a queue.
+
+# API
+In thisw code challenge I did work with Alex, Michael, Eddie and Brandon. The sites I utilized was geek for geeks.
+
+# Code Challenge 13
+
+# White Board:
+[Code Challenge 13, WB](img/code_challenge_13.png)
+
+# Stack Queue Bracket
+<!-- Short summary or background information -->
+Problem Domain: Write a function called validate brackets that will take in a string and return a boolean based on if all the brackets within are balanced
+
+## Challenge
+<!-- Description of the challenge -->
+Create a method that will do the above
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+
+Big O
+Space: O(n)
+Time: O(n)
+
+## API
+<!-- Description of each method publicly available to your Stack and Queue-->
+
+validateBrackets
+
+will take in a string and see if the brackets match each other. Then return a boolean of true if they do and false if they don't.
+
+Credit:
+Brandon, Eddie, Alex.
+
+# Code Challenge 17
+[Code Challenge 17 White board](img/02_03_22.code.challenge17.png)
+
+# Breadth-first Traversal
+We ended up making a function that would take in a tree and produce a list that would show the numbers in order fromthe breadth-first traversa
+
+# Code Challenge 27
+[Link to ReadME](code_challenges/insertion_sort/README.md)

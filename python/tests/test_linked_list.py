@@ -67,8 +67,16 @@ def test_to_string_not_working():
     ll.insert('gohan')
     assert ll.to_string() != "{ goku } -> { freiza } -> { gohan } -> None"
 
-def test_append_one():
-    ll = LinkedList()
-    ll.node1 = 'vegeta'
-    ll.node2 = 'goku'
-    ll.append('krillin')
+def test_zip_linked_list():
+    ll1 = LinkedList()
+    ll1.insert(1)
+    ll1.insert(3)
+    ll1.insert(2)
+
+    ll2 = LinkedList()
+    ll2.insert(5)
+    ll2.insert(9)
+    ll2.insert(4)
+
+    ll1.zip_lists(ll1, ll2)
+    assert ll1.to_string() == "{2} -> {4} -> {3} -> {9} -> {1} -> {5} -> None"
