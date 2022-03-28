@@ -200,3 +200,6 @@ Brandon, Eddie, Alex.
 
 # Breadth-first Traversal
 We ended up making a function that would take in a tree and produce a list that would show the numbers in order fromthe breadth-first traversa
+
+# Code Challenge 27
+[Link to ReadME](code_challenges/insertion_sort/README.md)
