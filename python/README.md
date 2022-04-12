@@ -203,3 +203,6 @@ We ended up making a function that would take in a tree and produce a list that 
 
 # Code Challenge 27
 [Link to ReadME](code_challenges/insertion_sort/README.md)
+
+# Code Challenge 38
+[Link to README](code_challenges/graph-depth-first/README.md)
